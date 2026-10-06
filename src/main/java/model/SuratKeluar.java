@@ -49,7 +49,6 @@ public class SuratKeluar extends Surat {
         urutanSuratBerikutnya++;
     }
 
-    // Getter
     public String getKategoriSurat() {
 
         if (kategoriSurat == 1) {
@@ -95,7 +94,6 @@ public class SuratKeluar extends Surat {
         return penerima;
     }
 
-    // Setter
     public void setKategoriSurat(int kategoriSurat) {
 
         if (kategoriSurat >= MIN_KATEGORI

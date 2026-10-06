@@ -27,7 +27,6 @@ public abstract class Surat implements ArsipSurat {
         setPerihal(perihal);
     }
 
-    // Getter
     public int getUrutanSurat() {
         return urutanSurat;
     }
@@ -40,7 +39,6 @@ public abstract class Surat implements ArsipSurat {
         return perihal;
     }
 
-    // Setter
     public void setUrutanSurat(int urutanSurat) {
         if (urutanSurat > 0) {
             this.urutanSurat = urutanSurat;
@@ -65,14 +63,12 @@ public abstract class Surat implements ArsipSurat {
         }
     }
 
-    // Method biasa dari superclass
     protected void tampilkanInfoDasar() {
         System.out.println("Urutan Surat : " + urutanSurat);
         System.out.println("Nomor Surat  : " + nomorSurat);
         System.out.println("Perihal      : " + perihal);
     }
 
-    // Abstract Method
     @Override
     public abstract void tampilkanDaftarSurat();
 

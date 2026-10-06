@@ -34,7 +34,6 @@ public class SuratMasuk extends Surat {
         urutanSuratBerikutnya++;
     }
 
-    // Getter
     public String getTanggalMasukSurat() {
         return tanggalMasukSurat;
     }
@@ -43,7 +42,6 @@ public class SuratMasuk extends Surat {
         return pengirim;
     }
 
-    // Setter
     public void setTanggalMasukSurat(String tanggalMasukSurat) {
         if (tanggalMasukSurat != null
                 && !tanggalMasukSurat.trim().isEmpty()) {
@@ -66,7 +64,6 @@ public class SuratMasuk extends Surat {
         }
     }
 
-    // Overriding
     @Override
     public void tampilkanDaftarSurat(){
 
