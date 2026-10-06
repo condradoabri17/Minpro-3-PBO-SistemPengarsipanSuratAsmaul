@@ -80,7 +80,7 @@ ArsipController.java
 view:
 View.java
 
-## 4. Flow Program
+## 4. Alur Program
 
 Program dimulai dari Main.java, kemudian sistem menampilkan menu melalui View. Pengguna kemudian memilih ingin melakukan proses pengelolaan surat atau data penghuni. Setelah menginput pilihan, input tersebut diteruskan ke ArsipController yang kemudian diteruskan lagi dan diproses menggunakan objek pada Model, kemudian hasil proses ditampilkan kembali melalui View.
 
