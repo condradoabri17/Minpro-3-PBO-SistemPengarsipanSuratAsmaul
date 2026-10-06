@@ -78,10 +78,6 @@ public class View {
         System.out.println("================================");
     }
 
-    // ==============================
-    // SURAT MASUK
-    // ==============================
-
     private void menuSuratMasuk() {
 
         boolean kembali = false;
@@ -328,10 +324,6 @@ public class View {
                 "Surat masuk berhasil dihapus."
         );
     }
-
-    // ==============================
-    // SURAT KELUAR
-    // ==============================
 
     private void menuSuratKeluar() {
 

@@ -6,7 +6,6 @@ package controller;
 
 import java.util.ArrayList;
 import model.Penghuni;
-import model.Surat;
 import model.SuratKeluar;
 import model.SuratMasuk;
 
@@ -95,7 +94,6 @@ public class ArsipController {
         return daftarPenghuni;
     }
 
-    // Tambah Surat Masuk
     public void tambahSuratMasuk(
             String nomorSurat,
             String perihal,
@@ -112,7 +110,6 @@ public class ArsipController {
         daftarSuratMasuk.add(suratBaru);
     }
 
-    // Edit Surat Masuk
     public void editSuratMasuk(
             int index,
             String nomorSurat,
@@ -139,12 +136,10 @@ public class ArsipController {
         }
     }
 
-    // Hapus Surat Masuk
     public void hapusSuratMasuk(int index) {
         daftarSuratMasuk.remove(index);
     }
 
-    // Tambah Surat Keluar
     public void tambahSuratKeluar(
             String perihal,
             int kategori,
@@ -161,7 +156,6 @@ public class ArsipController {
         daftarSuratKeluar.add(suratBaru);
     }
 
-    // Edit Surat Keluar
     public void editSuratKeluar(
             int index,
             String perihal,
@@ -183,7 +177,6 @@ public class ArsipController {
         }
     }
 
-    // Hapus Surat Keluar
     public void hapusSuratKeluar(int index) {
         daftarSuratKeluar.remove(index);
     }
