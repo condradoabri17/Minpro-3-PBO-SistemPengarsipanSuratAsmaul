@@ -1,0 +1,8 @@
+model\Penghuni.class
+model\SuratMasuk.class
+view\View.class
+model\Surat.class
+model\SuratKeluar.class
+main\Main.class
+model\ArsipSurat.class
+controller\ArsipController.class
